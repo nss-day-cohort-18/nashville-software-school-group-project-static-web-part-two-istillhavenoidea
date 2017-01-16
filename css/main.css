@@ -20,6 +20,75 @@ HISTORY PAGE
 PRODUCTS PAGE
 **************************/
 
+/*
+ * < 480
+ * > 660
+*/
+
+
+
+.earPlug{
+	background-color: #B3C4CC;
+	width: 30%;
+	color: #043C54;
+	margin: 1%;
+	border-style: solid;
+	border-color: black;
+}
+
+.plugImageContainer{
+	display: flex;
+	justify-content: center;
+	margin-top: 5%;
+}
+
+.plugDetails{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.plugDetails h5{
+	font-size: .9em;
+}
+
+.plugHeader{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	background-color: #043C54;
+	color: #B3C4CC;
+}
+
+
+#productsPage{
+	background-color: #1C5B76;
+}
+
+#cardContainer{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+@media screen and (max-width: 480px){
+	.earPlug{
+		width: 100%;
+		margin: 1% 0 5% 0;
+	}
+}
+
+@media screen and (min-width: 660px){
+	.earPlug{
+		width: 19%;
+		margin: 2.5%;
+	}
+}
 
 
 /**************************
