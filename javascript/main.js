@@ -140,7 +140,7 @@ var priceDOM4 = document.getElementById("plugPrice4");
 var imageDOM4 = document.getElementById("plugImg4");
 
 nameDOM4.innerHTML = earPlugs[3].name;
-descDOM4.innerHTML = earPlugs[3].desc;
+descDOM4.innerHTML = earPlugs[3].description;
 priceDOM4.innerHTML = earPlugs[3].price;
 imageDOM4.src = earPlugs[3].imgUrl;
 
