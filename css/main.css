@@ -40,10 +40,10 @@ nav {
   color: #043C54;
 }
 
-footer {
-   position: absolute;
+.non-index-footer {
+	margin: 0 auto;
    display: block;
-   width:100%;
+   width: 55%;
 }
 
 .footerLogos {
@@ -216,6 +216,10 @@ HISTORY PAGE
 	.align-right p {
 		text-align: right;
 	}
+
+	.non-index-footer {
+   	width: 45%;
+	}
 }
 
 @media screen and (min-width: 660px) {
@@ -264,6 +268,9 @@ HISTORY PAGE
 		text-align: right;
 	}
 
+	.non-index-footer {
+   	width: 35%;
+	}
 }
 
 @media screen and (min-width: 900px) {
@@ -284,6 +291,10 @@ HISTORY PAGE
 
 	#history-content ul {
 		margin: 0 auto;
+	}
+
+	.non-index-footer {
+   	width: 25%;
 	}
 
 }
@@ -401,6 +412,7 @@ PRODUCTS PAGE
 	list-style: none;
 	align-content: center;
 	justify-content: center;
+	width: 25%;
 	/* Testing */
 }
 
@@ -410,15 +422,19 @@ PRODUCTS PAGE
 	border-right: solid;
 	margin-left: 5%;
 	align-self: auto;
-
 }
 
 .nonIndexHtml li a{
 	color: #043C54 ;
 	margin-right: 10%;
+	text-decoration: none;
 }
 
-@media screen and (max-width: 480px){
+.nonIndexHtml li a:hover {
+	color: #fff;
+}
+
+@media screen and (min-width: 480px){
 	.earPlug{
 		width: 100%;
 		margin: 5% 0% 5% 0%;
@@ -430,6 +446,7 @@ PRODUCTS PAGE
 		border-right: solid;
 		border-radius: 0 50px 50px 0;
 		border-color: #B3C4CC;
+		margin-left: 15%;
 	}
 
 
