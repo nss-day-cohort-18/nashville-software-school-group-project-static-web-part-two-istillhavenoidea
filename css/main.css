@@ -298,8 +298,16 @@ PRODUCTS PAGE
 */
 
 
+/*
+ * plugHeader
+ * PlugImageContainer
+ * plugDetails
+ */
+
 
 .earPlug{
+	display: flex;
+	flex-direction: column;
 	background-color: white;
 	width: 75%;
 	color: #043C54;
@@ -311,6 +319,7 @@ PRODUCTS PAGE
 .plugImageContainer{
 	display: flex;
 	justify-content: center;
+	flex-basis: 30%;
 	margin-bottom: 5%;
 }
 
@@ -323,18 +332,39 @@ PRODUCTS PAGE
 .plugDetails{
 	display: flex;
 	flex-direction: column;
+	flex-basis:60%;
 	align-items: center;
 	margin-left: 10%;
 	margin-right: 10%;
+	margin-bottom: 1%;
 }
 
 .plugDetails h5{
 	font-size: .9em;
+	flex-basis: 20%;
+	margin: auto;
 }
+
+.plugDetails header{
+	flex-basis: 20%;
+	text-decoration: underline;
+	margin: auto;
+}
+.plugDetails p{
+	flex-basis: 20%;
+	margin: auto;
+}
+/*
+ *	<header>
+ *	<h5>
+ *	<p>
+ *	
+ */
 
 .plugHeader{
 	display: flex;
 	flex-direction: row;
+	flex-basis: 10%;
 	justify-content: center;
 	background-color: #043C54;
 	color: #B3C4CC;
@@ -446,18 +476,19 @@ PRODUCTS PAGE
 	.nonIndexHtml ul li a{
 		background-color: #B3C4CC
 		padding: 5%;
-}
+	}
 	.nonIndexHtml li{
 		background-color: #B3C4CC;
 		padding: 5%;
-		padding-right: 10%;
+		padding-right: 5%;
+	}
 }
 
-
-
-}
-
-
+/*
+ * plugHeader
+ * PlugImageContainer
+ * plugDetails
+ */
 
 
 
