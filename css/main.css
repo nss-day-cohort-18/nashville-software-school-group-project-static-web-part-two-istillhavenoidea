@@ -40,10 +40,10 @@ nav {
   color: #043C54;
 }
 
-footer {
-   position: absolute;
+.non-index-footer {
+	margin: 0 auto;
    display: block;
-   width:100%;
+   width: 35%;
 }
 
 .footerLogos {
