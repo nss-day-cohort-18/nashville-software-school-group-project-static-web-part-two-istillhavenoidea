@@ -225,7 +225,7 @@ PRODUCTS PAGE
 	background-color: white;
 	width: 75%;
 	color: #043C54;
-	margin: 5%;
+	margin: 0%;
 	border-style: solid;
 	border-color: black;
 }
@@ -279,7 +279,7 @@ PRODUCTS PAGE
 @media screen and (max-width: 480px){
 	.earPlug{
 		width: 100%;
-		margin: 5% 1% 5% 1%;
+		margin: 5% 0% 5% 0%;
 		padding: 5%;
 	}
 
@@ -307,7 +307,7 @@ PRODUCTS PAGE
 		margin: 2%;
 	}
 
-		#productsNavigation li{
+	#productsNavigation li{
 		margin-left: 30%;
 		margin-right: 30%;
 	}

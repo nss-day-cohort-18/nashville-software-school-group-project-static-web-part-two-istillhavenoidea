@@ -4,7 +4,7 @@ var earPlugs = [];
 // Plug #1
 var plug1 = {
 	name: "Blue Ear Plug",
-	description: "blah blah blah blah blah blah",
+	description: "Spicy jalap eno bacon ipsum dolor amet vo luptate ground round pancetta kielbasa. Anim alca tra ball tip, pic anha turdu cken porchetta cupid atat jowl flank. Jerky est reprehenderit fugiat, corned beef eu turkey jowl hamburger.",
 	price: 5,
 	imgUrl: "images/blue.jpg"
 };
@@ -12,7 +12,7 @@ var plug1 = {
 // Plug #2
 var plug2 = {
 	name: "Green Ear Plug",
-	description: "blah blah blah blah blah blah",
+	description: "Spicy jalap eno bacon ipsum dolor amet volu ptate ground round pancetta kielbasa. Anim alc atra ball tip, pic anha turd ucken porchetta cupidatat jowl flank. Jerky est reprehenderit fugiat, corned beef eu turkey jowl hamburger. ",
 	price: 5,
 	imgUrl: "images/green.jpg"
 };
@@ -21,7 +21,7 @@ var plug2 = {
 // Plug #3
 var plug3 = {
 	name: "Yellow Ear Plug",
-	description: "blah blah blah blah blah blah",
+	description: "Spicy jala peno bacon ipsum dolor amet volu ptate ground round pan cetta kielbasa. Anim alc atra ball tip, pic anha tur ducken porc hetta cupid atat jowl flank. Jerky est reprehe nderit fugiat, corned beef eu turkey jowl hamburger.",
 	price: 5,
 	imgUrl: "images/yellow.jpg"
 };
