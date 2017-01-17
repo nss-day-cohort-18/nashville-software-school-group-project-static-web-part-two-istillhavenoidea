@@ -8,6 +8,15 @@ body {
   color: #B3C4CC
 }
 
+#indexFooter {
+	margin: 10px auto;
+	width: 40%;
+}
+
+#indexFooter img {
+	margin: 1% 6%;
+}
+
 nav {
   padding-top: 20px;
 }
@@ -47,7 +56,8 @@ nav {
 }
 
 .footerLogos {
-  display: inline-block;
+	width: 100%;
+ 	display: inline-block;
 }
 
 .footerLogos a img {
@@ -270,6 +280,10 @@ HISTORY PAGE
 
 	.non-index-footer {
    	width: 35%;
+	}
+
+	#indexFooter img {
+	margin: 1% 1%;
 	}
 }
 
@@ -641,6 +655,7 @@ MEDIA QUERIES
 	#indexFooter p {
 		-webkit-text-stroke: 0;
 		font-weight: 100;
+		text-align: left;
 	}
 }
 
