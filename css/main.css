@@ -97,15 +97,27 @@ HISTORY PAGE
 **************************/
 
 #historyPage {
-	background-color:  #1C5B76;
+	background-color:  #4A7E94;
 	margin: 0;
 	padding: 0;
 }
 
-#history-content {
-	border: 2px solid blue;
-	margin: 15px auto;
+#history-title {
+	margin: 2% auto;
 	width: 85%;
+	height: 15%;
+}
+
+#history-title h3 {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-size: 3.5vw
+}
+
+#history-content {
+	margin: 0 auto;
+	width: 100%;
 	display: block;
 }
 
@@ -117,94 +129,151 @@ HISTORY PAGE
 }
 
 #history-content ul li {
-	width: 100%;
-	margin: 10px 0;
+	padding: 3% 0 0 0;
+	width: 80%;
+	margin: 10px auto;
 	list-style: none;
+	background-color: rgba(4, 60, 84, 0.4);
+	border-radius: 20px;
 }
 
-#history-left {
-	border: 2px solid yellow;
+#history-content ul li p {
+	padding: 0 2% 1% 2%;
+	color: #B3C4CC;
+	text-align: justify;
 }
 
-#history-left img {
+.history-section img {
 	display: block;
 	margin: auto;
 	width: 40%;
+	border-radius: 20%;
 }
-
-/*#filler-image1 {
-	width: 20%;
-	height: 150px;
-	margin: 0;
-	border: 2px solid lightblue;
-	background-size: 100% 100%;
-	background-image: url("../images/filler-photo1.png");
-}*/
-
-#history-right {
-	border: 2px solid purple;
-
-}
-
-#history-right img {
-	display: block;
-	margin: auto;
-	width: 40%;
-}
-
-/*#filler-image2 {
-	width: 20%;
-	height: 150px;
-	border: 2px solid red;
-	background-size: 100% 100%;
-	background-image: url("../images/filler-photo2.png");
-}*/
 
 #history-bottom-image {
-		display: block;
-		width: 95%;
-		height: 100px;
-		background-size: 100% 100%;
-		background-image: url("../images/history-footer.jpg");
-		background-repeat: no-repeat;
-		border: 2px solid red;
+	margin: 20px 0;
+	display: block;
+	width: 100%;
+	height: 200px;
+	background-size: 100% 100%;
+	background-image: url("../images/history-footer.jpg");
+	background-repeat: no-repeat;
+	opacity: 0.4;
 }
+
 
 @media screen and (min-width: 480px) {
 
 	#history-bottom-image {
 		width: 100%;
-		height: 100px;
+		height: 200px;
 		background-size: 100% 100%;
 		background-image: url("../images/history-footer-medium.jpg");
 		background-repeat: no-repeat;
-		border: 2px solid red;
 	}
 
+	#history-content ul li {
+		width: 45%;
+		height: 400px;
+		overflow: scroll;
+		display: inline-block;
+		margin: 15px 1.25%;
+		padding: 1%;
+	}
+
+	#history-content ul p {
+	display: inline;
+	margin: 0;
+	padding: 0;
+	}
+
+	.align-left img {
+		float: left;
+		margin: 1% 3% 0 1%;
+		padding: 0;
+	}
+
+	.align-left p {
+		text-align: left;
+	}
+
+	.align-right img {
+		float: right;
+		margin: 1% 1% 0 3%;
+		padding: 0;
+	}
+
+	.align-right p {
+		text-align: right;
+	}
 }
 
 @media screen and (min-width: 660px) {
 
-	#history-bottom-image {
+
+		#history-bottom-image {
 		width: 100%;
-		height: 100px;
+		height: 250px;
 		background-size: 100% 100%;
-		background-image: url("../images/history-footer-large.jpg");
+		background-image: url("../images/history-footer-medium.jpg");
 		background-repeat: no-repeat;
-		border: 2px solid red;
+	}
+
+	#history-content ul li {
+		width: 45%;
+		height: 400px;
+		overflow: scroll;
+		display: inline-block;
+		margin: 15px 1.25%;
+		padding: 1%;
+	}
+
+	#history-content ul p {
+	display: inline;
+	margin: 0;
+	padding: 0;
+	}
+
+	.align-left img {
+		float: left;
+		margin: 1% 3% 0 1%;
+		padding: 0;
+	}
+
+	.align-left p {
+		text-align: left;
+	}
+
+	.align-right img {
+		float: right;
+		margin: 1% 1% 0 3%;
+		padding: 0;
+	}
+
+	.align-right p {
+		text-align: right;
 	}
 
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 900px) {
 
 	#history-bottom-image {
 		width: 100%;
-		height: 100px;
+		height: 300px;
 		background-size: 100% 100%;
 		background-image: url("../images/history-footer-Xlarge.jpg");
 		background-repeat: no-repeat;
-		border: 2px solid red;
+	}
+
+	#history-content {
+	margin: 0 auto;
+	width: 100%;
+	display: block;
+	}
+
+	#history-content ul {
+		margin: 0 auto;
 	}
 
 }
