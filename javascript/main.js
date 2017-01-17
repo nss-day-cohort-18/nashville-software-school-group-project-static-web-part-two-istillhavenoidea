@@ -5,7 +5,7 @@ var earPlugs = [];
 var plug1 = {
 	name: "Blue Ear Plug",
 	description: "Spicy jalap eno bacon ipsum dolor amet vo luptate ground round pancetta kielbasa. Anim alca tra ball tip, pic anha turdu cken porchetta cupid atat jowl flank. Jerky est reprehenderit fugiat, corned beef eu turkey jowl hamburger.",
-	price: 5,
+	price: 5.00,
 	imgUrl: "images/blue.jpg"
 };
 
@@ -13,7 +13,7 @@ var plug1 = {
 var plug2 = {
 	name: "Green Ear Plug",
 	description: "Spicy jalap eno bacon ipsum dolor amet volu ptate ground round pancetta kielbasa. Anim alc atra ball tip, pic anha turd ucken porchetta cupidatat jowl flank. Jerky est reprehenderit fugiat, corned beef eu turkey jowl hamburger. ",
-	price: 5,
+	price: 5.00,
 	imgUrl: "images/green.jpg"
 };
 
@@ -22,7 +22,7 @@ var plug2 = {
 var plug3 = {
 	name: "Yellow Ear Plug",
 	description: "Spicy jala peno bacon ipsum dolor amet volu ptate ground round pan cetta kielbasa. Anim alc atra ball tip, pic anha tur ducken porc hetta cupid atat jowl flank. Jerky est reprehe nderit fugiat, corned beef eu turkey jowl hamburger.",
-	price: 5,
+	price: 5.00,
 	imgUrl: "images/yellow.jpg"
 };
 
@@ -30,16 +30,16 @@ var plug3 = {
 // Plug #4
 var plug4 = {
 	name: "Orange Ear Plug",
-	description: "Akin to the adventure of Perseus and Andromeda—indeed, by some supposed to be indirectly derived from it—is that famous story of St. George and the Dragon; which dragon I maintain to have been a whale; for in many old chronicles whales and dragons are strangely jumbled together.",
-	price: 5,
+	description: "By some supposed to be indirectly derived from it—is that famous story of St. George and the Dragon; which dragon I maintain to have been a whale; for in many old chronicles whales and dragons are strangely jumbled together.",
+	price: 5.00,
 	imgUrl: "images/orange.jpg"
 };
 
 // Plug #5
 var plug5 = {
 	name: "Yellow & Pink Ear Plug",
-	description: "A room in the house in Saville Row was set apart for Aouda, who was overwhelmed with grief at her protector's misfortune. From the words which Mr. Fogg dropped, she saw that he was meditating some serious project.",
-	price: 5,
+	description: "A room in the house in Saville Row was set apart for Aouda, who was overwhelmed with grief at her protector's misfortune. From the words which Mr. Fogg dropped, she saw that he was projecting.",
+	price: 5.50,
 	imgUrl: "images/yellowPink.jpg"
 };
 
@@ -47,7 +47,7 @@ var plug5 = {
 var plug6 = {
 	name: "Bunch O' Ear Plugs",
 	description: "I went on to the crowd. There were really, I should think, two or three hundred people elbowing and jostling one another, the one or two ladies there being by no means the least active.",
-	price: 5,
+	price: 20.00,
 	imgUrl: "images/bunch.jpg"
 };
 
@@ -55,15 +55,15 @@ var plug6 = {
 var plug7 = {
 	name: "Deluxe Ear Plug",
 	description: "The Witch of the South. She is the most powerful of all the Witches, and rules over the Quadlings. Besides, her castle stands on the edge of the desert, so she may know a way to cross it",
-	price: 5,
+	price: 7.25,
 	imgUrl: "images/deluxe.jpg"
 };
 
 // Plug #8
 var plug8 = {
 	name: "Barbed Wire Ear Plugs",
-	description: "Two lines!' cried the Mock Turtle. 'Seals, turtles, salmon, and so on; then, when you've cleared all the jelly-fish out of the way—",
-	price: 5,
+	description: "Two lines!' cried the Mock Turtle. 'Seals, turtles, salmon, and so on; then, when you've cleared all the jelly-fish out of the way— so she may know a way to cross it.",
+	price: 7.25,
 	imgUrl: "images/barbed.jpg"
 };
 
@@ -95,7 +95,7 @@ var imageDOM1 = document.getElementById("plugImg1");
 
 nameDOM1.innerHTML = earPlugs[0].name;
 descDOM1.innerHTML = earPlugs[0].description;
-priceDOM1.innerHTML = earPlugs[0].price;
+priceDOM1.innerHTML = "<strong>$" + earPlugs[0].price.toFixed(2) + "<strong>"
 imageDOM1.src = earPlugs[0].imgUrl;
 
 
@@ -108,7 +108,7 @@ var imageDOM2 = document.getElementById("plugImg2");
 
 nameDOM2.innerHTML = earPlugs[1].name;
 descDOM2.innerHTML = earPlugs[1].description;
-priceDOM2.innerHTML = earPlugs[1].price;
+priceDOM2.innerHTML = "<strong>$" + earPlugs[1].price.toFixed(2) + "<strong>"
 imageDOM2.src = earPlugs[1].imgUrl;
 
 
@@ -120,7 +120,7 @@ var imageDOM3 = document.getElementById("plugImg3");
 
 nameDOM3.innerHTML = earPlugs[2].name;
 descDOM3.innerHTML = earPlugs[2].description;
-priceDOM3.innerHTML = earPlugs[2].price;
+priceDOM3.innerHTML = "<strong>$" + earPlugs[2].price.toFixed(2) + "<strong>"
 imageDOM3.src = earPlugs[2].imgUrl;
 
 
@@ -132,7 +132,7 @@ var imageDOM4 = document.getElementById("plugImg4");
 
 nameDOM4.innerHTML = earPlugs[3].name;
 descDOM4.innerHTML = earPlugs[3].description;
-priceDOM4.innerHTML = earPlugs[3].price;
+priceDOM4.innerHTML = "<strong>$" + earPlugs[3].price.toFixed(2) + "<strong>"
 imageDOM4.src = earPlugs[3].imgUrl;
 
 
@@ -144,7 +144,7 @@ var imageDOM5 = document.getElementById("plugImg5");
 
 nameDOM5.innerHTML = earPlugs[4].name;
 descDOM5.innerHTML = earPlugs[4].description;
-priceDOM5.innerHTML = earPlugs[4].price;
+priceDOM5.innerHTML = "<strong>$" + earPlugs[4].price.toFixed(2) + "<strong>"
 imageDOM5.src = earPlugs[4].imgUrl;
 
 
@@ -157,7 +157,7 @@ var imageDOM6 = document.getElementById("plugImg6");
 
 nameDOM6.innerHTML = earPlugs[5].name;
 descDOM6.innerHTML = earPlugs[5].description;
-priceDOM6.innerHTML = earPlugs[5].price;
+priceDOM6.innerHTML = "<strong>$" + earPlugs[5].price.toFixed(2) + "<strong>"
 imageDOM6.src = earPlugs[5].imgUrl;
 
 // Plug # 7
@@ -168,7 +168,7 @@ var imageDOM7 = document.getElementById("plugImg7");
 
 nameDOM7.innerHTML = earPlugs[6].name;
 descDOM7.innerHTML = earPlugs[6].description;
-priceDOM7.innerHTML = earPlugs[6].price;
+priceDOM7.innerHTML = "<strong>$" + earPlugs[6].price.toFixed(2) + "<strong>"
 imageDOM7.src = earPlugs[6].imgUrl;
 
 // Plug # 8
@@ -179,7 +179,7 @@ var imageDOM8 = document.getElementById("plugImg8");
 
 nameDOM8.innerHTML = earPlugs[7].name;
 descDOM8.innerHTML = earPlugs[7].description;
-priceDOM8.innerHTML = earPlugs[7].price;
+priceDOM8.innerHTML = "<strong>$" + earPlugs[7].price.toFixed(2) + "<strong>";
 imageDOM8.src = earPlugs[7].imgUrl;
 
 
