@@ -30,7 +30,7 @@ var plug3 = {
 // Plug #4
 var plug4 = {
 	name: "Orange Ear Plug",
-	description: "blah blah blah blah blah blah",
+	description: "Akin to the adventure of Perseus and Andromeda—indeed, by some supposed to be indirectly derived from it—is that famous story of St. George and the Dragon; which dragon I maintain to have been a whale; for in many old chronicles whales and dragons are strangely jumbled together.",
 	price: 5,
 	imgUrl: "images/orange.jpg"
 };
@@ -38,7 +38,7 @@ var plug4 = {
 // Plug #5
 var plug5 = {
 	name: "Yellow & Pink Ear Plug",
-	description: "blah blah blah blah blah blah",
+	description: "A room in the house in Saville Row was set apart for Aouda, who was overwhelmed with grief at her protector's misfortune. From the words which Mr. Fogg dropped, she saw that he was meditating some serious project.",
 	price: 5,
 	imgUrl: "images/yellowPink.jpg"
 };
@@ -46,7 +46,7 @@ var plug5 = {
 // Plug #6
 var plug6 = {
 	name: "Bunch O' Ear Plugs",
-	description: "blah blah blah blah blah blah",
+	description: "I went on to the crowd. There were really, I should think, two or three hundred people elbowing and jostling one another, the one or two ladies there being by no means the least active.",
 	price: 5,
 	imgUrl: "images/bunch.jpg"
 };
@@ -54,7 +54,7 @@ var plug6 = {
 // Plug #7
 var plug7 = {
 	name: "Deluxe Ear Plug",
-	description: "blah blah blah blah blah blah",
+	description: "The Witch of the South. She is the most powerful of all the Witches, and rules over the Quadlings. Besides, her castle stands on the edge of the desert, so she may know a way to cross it",
 	price: 5,
 	imgUrl: "images/deluxe.jpg"
 };
@@ -62,7 +62,7 @@ var plug7 = {
 // Plug #8
 var plug8 = {
 	name: "Barbed Wire Ear Plugs",
-	description: "blah blah blah blah blah blah",
+	description: "Two lines!' cried the Mock Turtle. 'Seals, turtles, salmon, and so on; then, when you've cleared all the jelly-fish out of the way—",
 	price: 5,
 	imgUrl: "images/barbed.jpg"
 };
