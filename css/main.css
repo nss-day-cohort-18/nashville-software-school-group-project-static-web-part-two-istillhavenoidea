@@ -43,7 +43,7 @@ nav {
 .non-index-footer {
 	margin: 0 auto;
    display: block;
-   width: 35%;
+   width: 55%;
 }
 
 .footerLogos {
@@ -216,6 +216,10 @@ HISTORY PAGE
 	.align-right p {
 		text-align: right;
 	}
+
+	.non-index-footer {
+   	width: 45%;
+	}
 }
 
 @media screen and (min-width: 660px) {
@@ -264,6 +268,9 @@ HISTORY PAGE
 		text-align: right;
 	}
 
+	.non-index-footer {
+   	width: 35%;
+	}
 }
 
 @media screen and (min-width: 900px) {
@@ -284,6 +291,10 @@ HISTORY PAGE
 
 	#history-content ul {
 		margin: 0 auto;
+	}
+
+	.non-index-footer {
+   	width: 25%;
 	}
 
 }
