@@ -3,78 +3,70 @@ var earPlugs = [];
 
 // Plug #1
 var plug1 = {
-	name: "Plug #1",
+	name: "Blue Ear Plug",
 	description: "blah blah blah blah blah blah",
 	price: 5,
-	imgUrl: ""
+	imgUrl: "images/blue.jpg"
 };
 
 // Plug #2
 var plug2 = {
-	name: "Plug #2",
+	name: "Green Ear Plug",
 	description: "blah blah blah blah blah blah",
 	price: 5,
-	imgUrl: ""
+	imgUrl: "images/green.jpg"
 };
 
 
 // Plug #3
 var plug3 = {
-	name: "Plug #3",
+	name: "Yellow Ear Plug",
 	description: "blah blah blah blah blah blah",
 	price: 5,
-	imgUrl: ""
+	imgUrl: "images/yellow.jpg"
 };
 
 
 // Plug #4
 var plug4 = {
-	name: "Plug #4",
+	name: "Orange Ear Plug",
 	description: "blah blah blah blah blah blah",
 	price: 5,
-	imgUrl: ""
+	imgUrl: "images/orange.jpg"
 };
 
 // Plug #5
 var plug5 = {
-	name: "Plug #5",
+	name: "Yellow & Pink Ear Plug",
 	description: "blah blah blah blah blah blah",
 	price: 5,
-	imgUrl: ""
+	imgUrl: "images/yellowPink.jpg"
 };
 
 // Plug #6
 var plug6 = {
-	name: "Plug #6",
+	name: "Bunch O' Ear Plugs",
 	description: "blah blah blah blah blah blah",
 	price: 5,
-	imgUrl: ""
+	imgUrl: "images/bunch.jpg"
 };
 
 // Plug #7
 var plug7 = {
-	name: "Plug #7",
+	name: "Deluxe Ear Plug",
 	description: "blah blah blah blah blah blah",
 	price: 5,
-	imgUrl: ""
+	imgUrl: "images/deluxe.jpg"
 };
 
 // Plug #8
 var plug8 = {
-	name: "Plug #8",
+	name: "Barbed Wire Ear Plugs",
 	description: "blah blah blah blah blah blah",
 	price: 5,
-	imgUrl: ""
+	imgUrl: "images/barbed.jpg"
 };
 
-
-// Plug #9
-var plug9 = {
-	name: "Plug #9",
-	description: "blah blah blah blah blah blah",
-	price: 5,
-	imgUrl: ""
-};
 
 
 // <name>				"plugName#"
@@ -91,7 +83,6 @@ earPlugs.push(plug5);
 earPlugs.push(plug6);
 earPlugs.push(plug7);
 earPlugs.push(plug8);
-earPlugs.push(plug9);
 
 console.log("EarPlugs[i]: ", earPlugs);
 
@@ -191,15 +182,4 @@ descDOM8.innerHTML = earPlugs[7].description;
 priceDOM8.innerHTML = earPlugs[7].price;
 imageDOM8.src = earPlugs[7].imgUrl;
 
-
-// Plug # 9
-var nameDOM9 = document.getElementById("plugName9");
-var descDOM9 = document.getElementById("plugDesc9");
-var priceDOM9 = document.getElementById("plugPrice9");
-var imageDOM9 = document.getElementById("plugImg9");
-
-nameDOM9.innerHTML = earPlugs[8].name;
-descDOM9.innerHTML = earPlugs[8].description;
-priceDOM9.innerHTML = earPlugs[8].price;
-imageDOM9.src = earPlugs[8].imgUrl;
 

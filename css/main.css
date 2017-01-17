@@ -1,6 +1,7 @@
 /**************************
 GENERAL
 **************************/
+
 body {
   font-family: 'Open Sans', sans-serif;
   background-color: #4A7E94;
@@ -221,10 +222,10 @@ PRODUCTS PAGE
 
 
 .earPlug{
-	background-color: #B3C4CC;
-	width: 30%;
+	background-color: white;
+	width: 75%;
 	color: #043C54;
-	margin: 1%;
+	margin: 5%;
 	border-style: solid;
 	border-color: black;
 }
@@ -232,7 +233,13 @@ PRODUCTS PAGE
 .plugImageContainer{
 	display: flex;
 	justify-content: center;
-	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.plugImageContainer img{
+	width: 100%;
+	height: 100%;
+	min-width: 199px;
 }
 
 .plugDetails{
@@ -272,15 +279,60 @@ PRODUCTS PAGE
 @media screen and (max-width: 480px){
 	.earPlug{
 		width: 100%;
-		margin: 1% 0 5% 0;
+		margin: 5% 1% 5% 1%;
+		padding: 5%;
+	}
+
+	#productsNavigation h3{
+		padding-left: 10%;
+		padding-right: 10%;
 	}
 }
 
 @media screen and (min-width: 660px){
 	.earPlug{
-		width: 19%;
-		margin: 2.5%;
+		width: 40%;
+		margin: 2%;
 	}
+
+	#productsNavigation li{
+		margin-left: 30%;
+		margin-right: 30%;
+	}
+}
+
+@media screen and (min-width: 1100px){
+	.earPlug{
+		width: 25%;
+		margin: 2%;
+	}
+
+		#productsNavigation li{
+		margin-left: 30%;
+		margin-right: 30%;
+	}
+}
+
+@media screen and (min-width: 1400px){
+	.earPlug{
+		width: 18%;
+		margin: 1%;
+	}
+
+	#productsNavigation li{
+		margin-left: 40%;
+		margin-right: 40%;
+	}
+}
+
+#productsNavigation{
+	background-color: #043C54;
+	padding-bottom: 1%;
+}
+
+#productsNavigation li{
+	margin-left: 9%;
+	margin-right: 9%;
 }
 
 
