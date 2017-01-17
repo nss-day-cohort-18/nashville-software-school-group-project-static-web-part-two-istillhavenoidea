@@ -531,39 +531,91 @@ PRODUCTS PAGE
 CONTACTS PAGE
 **************************/
 
-.locContainer {
-	margin: 0em 3em 0em 3em;
-	padding: 2em;
+/*.locContainer {
+	margin: 0;
+	padding: 0;
 	font-size: 1.5em;
 	display: block;
-}
+}*/
 
-.locContainer img {
+/*.locContainer img {
 /*	width: 20%
 	height: 120px;
 	float: left;*/
-	display: flex;
+/*	display: flex;
 	align-items: center;
 	margin: 0em -3em 0em 3em;
 	padding: 1em;
 	font-size: 1.5em;
+	}*/
+
+div.contactContainer img {
+	width: 80%;
+	margin: 0;
+	padding: 0;
+}
+
+
+div.contactContainer ul {
+	width: 100%;
+	margin: 2em;
+
+}
+
+div.contactContainer ul li{
+	display: inline-block;
+	list-style: none;
+	width: 22%;
+	height: 200px;
+/*	overflow: auto;*/
+	font-size: 1em;
+	font-family: 'Open Sans', sans-serif;
+}
+
+div.contactContainer ul li p {
+	padding: 0;
+	margin: 0;
 }
 
 .emailUs {
 	text-align: center;
-	font-size: 2em;
+	font-size: 1.5em;
+	font-family: 'Open Sans', sans-serif;
 }
 
-.social img {
-	width: 50px;
-	height: 50px;
-	padding: 0 3em 0 3em;
-	float: left;
+.socialContainer h4 {
 	text-align: center;
+	font-size: 1.5em;
+	font-family: 'Open Sans', sans-serif;
+	text-decoration: none;
+	color: #B3C4CC;
+}
+
+div.socialContainer ul {
+	width: 100%;
+}
+
+div.socialContainer ul li {
+	display: inline-block;
+	list-style-type: none;
+	width: 20%;
+	height: 100px;
+	margin: 0.25em 0 -.25em;
+	padding: .5em;
+
+
 }
 
 .contactBanner {
 	width: 100%;
+}
+
+.socialContainer img {
+	width: 60px;
+	height: 60px;
+	margin: 0;
+	padding: 0;
+	float: left;
 }
 
 
