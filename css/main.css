@@ -134,7 +134,7 @@ HISTORY PAGE
 	margin: 10px auto;
 	list-style: none;
 	background-color: rgba(4, 60, 84, 0.4);
-	border-radius: 5%;
+	border-radius: 20px;
 }
 
 #history-content ul li p {
@@ -213,7 +213,7 @@ HISTORY PAGE
 
 		#history-bottom-image {
 		width: 100%;
-		height: 200px;
+		height: 250px;
 		background-size: 100% 100%;
 		background-image: url("../images/history-footer-medium.jpg");
 		background-repeat: no-repeat;
